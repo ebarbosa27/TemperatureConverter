@@ -22,4 +22,7 @@ function describeTemperature(tempF) {
 }
 
 const userInput = prompt("What is the temperature? (°F)");
-alert(`Seems like it's ${describeTemperature(userInput)} outside today.`);
+alert(`
+  In celcius that is ${convertToCelsius(userInput)}°C,
+  seems like it's ${describeTemperature(userInput)} outside today.
+  `);
